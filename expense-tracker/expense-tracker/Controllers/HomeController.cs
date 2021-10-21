@@ -28,6 +28,11 @@ namespace expense_tracker.Controllers
             return View();
         }
 
+        public IActionResult Expenses()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
